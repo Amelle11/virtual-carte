@@ -1,0 +1,122 @@
+.palm {
+	width: 100%;
+	height: 400%;
+	background: url(https://p0.pikist.com/photos/682/298/great-prints-philippines-george-paris-jeddah-red-sea-palm-trees-clouds-orange-yellow-golden.jpg);
+	background-size: cover;
+}
+
+
+
+nav ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	font-family: Avenir, sans-serif;
+}
+
+nav li {
+	float: left;
+	width: 25%;
+	text-align: center;
+
+}
+
+nav ul::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+nav a {
+	display: block;
+	text-decoration: none;
+	color: black;
+	border-bottom: 2px solid transparent;
+	padding: 10px 0px;
+}
+
+nav {
+	width: 100%;
+	margin: 0 auto;
+	background-color: white;
+	position: sticky;
+	top: 0px;
+}
+
+nav a:hover {
+	color: orange;
+	border-bottom: 2px solid gold;
+}
+ 
+body {
+	background-color: #d6b68e;
+}
+
+body h1 {
+	text-align: center;
+	font-size: 75px;
+	text-decoration: underline;
+	text-shadow: #c25686 1px 0 10px;
+	font-family: 'Comic Sans MS', cursive;
+}
+
+body img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 170px;
+	height: 170px;
+}
+
+h2 {
+	font-family: 'Comic Sans MS', cursive;
+		font-size: 40px;
+		text-decoration: underline;
+		color: #848b45;
+}
+
+p {
+	font-size: 25px;
+	font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+
+}
+
+.motivations {
+	font-size: 25px;
+	font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+
+}
+.motivations p {
+		font-family: 'Comic Sans MS', cursive;
+		font-size: 40px;
+		text-decoration: underline;
+		color: #848b45;
+}
+
+footer {
+	width: 100%;
+	margin: 0 auto;
+	background-color: white;
+	position: sticky;
+}
+
+.profils ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	font-family: Avenir, sans-serif;
+	background-color: white;
+
+}
+
+
+.profils li {
+	float: left;
+	width: 50%;
+	text-align: center;
+	background-color: white;
+
+}
+footer a {
+	font-size: 30px;
+}
